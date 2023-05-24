@@ -91,7 +91,7 @@ function draw() {
   
   if (frameCount > 600) {
     if      (pagina == 1){
-                window.open("https://editor.p5js.org/diazmaximo2a/full/VlcijYGm3", "_top");} //galeria
+                window.open("https://jeffercart.github.io/galeria/", "_top");} //galeria
     else if (pagina == 2){
                window.open("https://jeffercart.github.io/audios/", "_top");} //audio
     else if (pagina == 3) {
