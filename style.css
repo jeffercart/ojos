@@ -9,3 +9,31 @@ html, body {
 canvas {
   display: flex;
 }
+
+a {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: black;
+  color: rgb(37, 33, 43);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Helvetica;
+}
+a:link {
+    color: rgb(47, 42, 53);
+    text-decoration: none; /* Quitar subrayado */
+  }
+  
+  a:visited {
+    color: rgb(47, 42, 53);
+
+  }
+
+a:hover {
+  background-color: rgb(88, 88, 97);
+}
